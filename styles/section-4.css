@@ -1,0 +1,22 @@
+.section-4 {
+  padding-top: 1rem;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+}
+
+.section-4 > div > h2 {
+  color: #d3b16a;
+  font-family: Roboto Slab;
+  font-size: 36px;
+  font-style: normal;
+  font-weight: 900;
+  line-height: 45px;
+  text-align: left;
+  margin-bottom: 31px;
+}
+
+.section-4 > div > iframe {
+  width: 1140px;
+  height: 599.559px;
+}

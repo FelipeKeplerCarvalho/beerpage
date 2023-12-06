@@ -1,0 +1,190 @@
+.modal{
+    display: none;
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    z-index: 99999;
+    animation: animate;
+    animation-duration: 800ms;   
+}
+
+@keyframes animate{
+    from{opacity: 1;}
+    from{opacity: 0;}
+}
+
+
+.modal-content {
+    width: 1079px;
+    height: 700px;
+    border-radius: 10px;
+    background: var(--Formulrio, #f8f8f8);
+  }
+  
+  .modal-content {
+    display: flex;
+    justify-content: space-between;
+  }
+  
+  .modal-call > h2 {
+    color: var(--Azul-Escuro, #05a);
+    font-family: Roboto Slab;
+    font-size: 32px;
+    font-style: normal;
+    font-weight: 900;
+    line-height: normal;
+    margin: 20px 0 40px 0;
+  }
+  
+  .modal-call > h2 > span {
+    color: var(--Azul-Escuro, #05a);
+    font-family: Roboto Slab;
+    font-size: 32px;
+    font-style: normal;
+    font-weight: 300;
+    line-height: normal;
+  }
+  
+  .modal-esquerda {
+    width: 624px;
+    height: 388px;
+    margin-top: 42px;
+    margin-left: 100px;
+  }
+  
+  .teste::after {
+    content: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.";
+    margin-left: 12px;
+    color: var(--Cinza, #5b5b5b);
+    font-family: Roboto Slab;
+    font-size: 12px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    position: relative;
+    top: -2px;
+  }
+  
+  .teste-2::after {
+    content: "Quero ser um revendedor OPA ";
+    margin-left: 12px;
+    color: var(--Cinza, #5b5b5b);
+    font-family: Roboto Slab;
+    font-size: 12px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    position: relative;
+    top: -2px;
+  }
+  .modal-checkbox {
+    margin-top: 30px;
+  }
+  
+  .modal-checkbox-2 {
+    margin-top: 20px;
+  }
+  
+  .modal-direita {
+    width: 21.86%;
+    height: 700px;
+    background: var(--Azul-Escuro, #05a);
+    position: relative;
+    border-radius: 0px 8px 8px 0px;
+  }
+  
+  .modal-text-1 {
+    width: 100%;
+    padding: 24px 15px;
+    margin-bottom: 20px;
+    border-radius: 8px;
+    border: 1px solid var(--Bege-Claro, #e4e2dd);
+    background: var(--Branco, #fff);
+  
+  
+    color: var(--Cinza, #5B5B5B);
+  font-family: Roboto Slab;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  }
+  
+  .modal-text-2,
+  .modal-text-3,
+  .modal-text-4,
+  .modal-text-5 {
+  
+    width: 300px;
+    height: 60px;
+    border: 1px solid var(--Bege-Claro, #e4e2dd);
+    border-radius: 8px;
+    padding: 24px 15px;
+    background: var(--Branco, #fff);
+    margin-bottom: 20px;
+    color: var(--Cinza, #5B5B5B);
+    font-family: Roboto Slab;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    }
+  
+  .modal-text-3,
+  .modal-text-5 {
+    margin-left: 20px;
+  }
+  
+  .modal-folha-topo {
+    position: absolute;
+    left: -5%;
+  }
+  
+  .garrafa-modal {
+    position: absolute;
+    left: 50%;
+    top: 55%;
+    transform: translate(-70%, -50%);
+    z-index: 9;
+  }
+  
+  .modal-nobreza {
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+  }
+  
+  .modal-folha-baixo {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+  }
+  
+  .modal-button{
+      position: relative;
+  }
+  .modal-button > div{   
+      position: absolute;
+      right: 0;
+      width: 300px;
+      height: 60px;
+      border-radius: 8px;
+      background: var(--Azul-Escuro, #05A);
+      display: flex;
+      align-items: center;
+      justify-content: center;
+  }
+  
+  .modal-button > div > p {
+  color: var(--Branco, #FFF);
+  font-family: Roboto Slab;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+  }
+  
+  
+  .modal-button > div > img {
+      margin:4px 18px 0 0 ;
+  }

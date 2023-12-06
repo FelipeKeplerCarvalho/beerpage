@@ -1,0 +1,158 @@
+@import url(header.css);
+@import url(info.css);
+@import url(section-3.css);
+@import url(section-4.css);
+@import url(section-5.css);
+@import url(footer.css);
+@import url(modal.css);
+
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+body {
+  height: 100vh;
+  width: 100%;
+}
+
+.container {
+  max-width: 1139px;
+  margin: 0 auto;
+}
+
+button {
+  cursor: pointer;
+}
+
+.bg-home {
+  background-color: rgb(0, 85, 170);
+  height: 750px;
+}
+
+.hero {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.esquerda {
+  height: 750px;
+  width: 50%;
+  position: relative;
+}
+
+.headline {
+  position: absolute;
+  top: 50%;
+  left: 70%;
+  transform: translate(-50%, -50%);
+  color: var(--Branco, #fff);
+  text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+  font-family: Roboto Slab;
+  font-size: 60px;
+  font-style: normal;
+  font-weight: 900;
+  line-height: 60px;
+}
+
+.headline > span {
+  color: white;
+  font-family: Roboto Slab;
+  font-size: 60px;
+  font-style: normal;
+  font-weight: 200;
+  line-height: 60px;
+}
+
+.folha-canto-direito {
+  position: absolute;
+  top: 0;
+  left: 0;
+}
+
+.folha-meio-direita {
+  position: absolute;
+  top: 70%;
+  left: 0;
+  transform: translateY(
+    -50%
+  ); 
+}
+
+.folha-inferior-direita {
+  position: absolute;
+  bottom: 0;
+  right: 0;
+}
+
+.direita {
+  background-image: url(../assets/banner-imagem.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+
+  height: 750px;
+  width: 50%;
+  position: relative;
+}
+
+.direita > h2 {
+  position: absolute;
+  top: 50%;
+  right: 60%;
+  transform: translate(-50%, 0);
+  color: #fff;
+  text-align: right;
+  text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+  font-family: Roboto Slab;
+  font-size: 1rem;
+  font-style: normal;
+  font-weight: 800;
+  line-height: normal;
+  
+}
+
+.direita > h2 > span {
+  color: #fff;
+  font-family: Roboto Slab;
+  font-size: 1rem;
+  font-style: normal;
+  font-weight: 200;
+  line-height: normal;
+}
+
+.folha-direita-direita {
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+  right: 0;
+  width: 123px;
+  height: 328px;
+}
+
+
+
+
+@media screen and (max-width: 1500px) {
+
+
+  .direita > h2 {
+    position: absolute;
+    top: 50%;
+    right: 40%;
+    transform: translate(-50%, 0);
+  }
+
+  .tampinha{
+  
+width: 200px;
+position: absolute;
+top: -60%;
+right: 15%;
+  }
+
+
+
+}

@@ -1,0 +1,45 @@
+.section-3-conteudo {
+  display: flex;
+  min-width: 1275px;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.copy-direita {
+  position: relative;
+}
+
+.copy-direita::before {
+  content: url(../assets/copy/section-3-folha.png);
+  position: absolute;
+  top: 0;
+  right: 0px;
+}
+
+.copy-esquerda > h2 {
+    color: #05a;
+    font-family: Roboto Slab;
+    font-size: 36px;
+    font-style: normal;
+    font-weight: 900;
+    line-height: 45px;
+  } 
+  
+.copy-esquerda > h2 >  span {
+color: #05A;
+font-family: Roboto Slab;
+font-size: 36px;
+font-style: normal;
+font-weight: 200;
+line-height: 45px;
+}
+
+.copy-esquerda > p {
+margin-top: 42px;
+color: #5B5B5B;
+font-family: Roboto Slab;
+font-size: 15px;
+font-style: normal;
+font-weight: 300;
+line-height: normal;
+}

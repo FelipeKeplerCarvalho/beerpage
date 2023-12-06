@@ -1,0 +1,68 @@
+.section-5 {
+  padding-top: 105px;
+  padding-bottom: 139px;
+}
+
+.section-5 > div > h2 {
+  color: var(--Azul-Escuro, #05a);
+  font-family: Roboto Slab;
+  font-size: 36px;
+  font-style: normal;
+  font-weight: 900;
+  line-height: 45px;
+}
+
+.section-5 > div > h2 > span {
+  color: var(--Azul-Escuro, #05a);
+  font-family: Roboto Slab;
+  font-size: 36px;
+  font-style: normal;
+  font-weight: 200;
+  line-height: 45px;
+}
+
+.call-to-action {
+  margin-top: 37px;
+  display: flex;
+}
+
+.call-to-action > input {
+  width: 557px;
+  height: 60px;
+  border: 1px solid var(--Cinza, #5b5b5b);
+  border-radius: 8px;
+  padding: 24px 15px;
+  background: var(--Branco, #fff);
+  margin: 0 25px 20px 0;
+  color: var(--Cinza, #5b5b5b);
+  font-family: Roboto Slab;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+}
+
+.call-to-action > button {
+  border-style: none;
+  border-radius: 6px;
+  border-color: #0055aa;
+  background: var(--Azul-Escuro, #05a);
+  width: 266px;
+  height: 60px;
+  color: var(--Branco, #fff);
+  font-family: Roboto Slab;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 45px;
+}
+
+.call-to-action > button {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.call-to-action > button > img {
+  margin-right: 10px;
+  padding-top: 2px;
+}

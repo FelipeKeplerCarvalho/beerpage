@@ -1,0 +1,51 @@
+footer {
+  position: relative;
+  height: 250px;
+  background-color: var(--Azul-Escuro, #05a);
+}
+
+.frame{
+    position: absolute;
+    left: 50%; 
+    top: 50%; 
+    transform: translate(-50%, -50%)
+}
+
+.tampinha{
+    content: url(../assets/foooter/56192-bottle-cap-mockup\ 1.png);
+    position: absolute;
+    z-index: 999;
+    top: -80%;
+    right: 15%;
+}
+
+.tampinha::before{
+    content: url(../assets/foooter/Vector.png) ;
+    position: absolute;
+    z-index: 999;
+    
+}
+
+
+.pseudo-before-1::before{
+    content: url(../assets/foooter/image\ 3.png);
+    position: absolute;
+    z-index: 999;
+    top: -40%;
+    left: 5%;
+}
+
+.pseudo-before-2::before{
+    content: url(../assets/foooter/image\ 4.png);
+    position: absolute;
+    z-index: 999;
+    top: -30%;
+    left: 20%;
+}
+
+.rodape-folha-2{
+    position: absolute;
+    right: 0px;
+    bottom: 0px;
+}
+

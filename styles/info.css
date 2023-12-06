@@ -1,0 +1,101 @@
+.info-bg{
+    background-color:#D3B16A ;
+    width: 100%;
+    height: 400px;
+    position: relative;
+}
+
+.info-img-center::after{
+    content: url(../assets/garrafa-rotulo-azul.png);
+    position: absolute;
+    left: 50%;
+    top: 0%;
+    transform: translate(-50%,-71%);
+    z-index: 999;
+}
+
+.info-bg::before{
+    content: url(../assets/copy/selo-1.png);
+    position: absolute;
+    left: 50%;
+    bottom: 0;
+    transform: translate(-50%, 70%);
+}
+
+.info-img-center-folha{
+    position: absolute;
+    bottom: 0;
+    left: 28%;
+    transform: translate(0%, 33%)
+}
+
+.info-img-center-texto{
+    position: absolute;
+    bottom: 0;
+    right: 27%;
+    transform: translate(0%, 20%)
+}
+
+
+
+.icones-info {
+display: flex;
+min-width: 1139px;
+justify-content: space-between;
+position: absolute;
+left: 50%;
+top: 50%;
+transform: translate(-50%,-50%); }
+
+
+
+
+.icon-direita{
+    display: flex;
+    justify-content: flex-end;
+    gap: 24px;
+    margin-bottom: 2rem;
+}
+
+.icon-esquerda{
+    display: flex;
+    gap: 24px;
+    margin-bottom: 2rem;
+}
+
+.icon-info > p {
+color: #7A570F;
+font-family: Roboto Slab;
+font-size: 18px;
+font-style: normal;
+font-weight: 700;
+line-height: normal;
+}
+
+
+.info-img-1{
+    position: absolute;
+    left: 0;
+    bottom: 0;
+}
+
+.info-img-2{
+    position: absolute;
+    top: 0;
+    left: 5%;
+
+    
+}
+
+.info-img-3{
+    position: absolute;
+    top: 0;
+    right: 20%;
+    transform: translateY(-20%)
+}
+
+.info-img-4{
+    position: absolute;
+    right: 0;
+    bottom: 0;
+}
